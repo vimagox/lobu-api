@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = *migrations*,
+       *urls*,
+       *test*,
+       *admin*,
+       ./lobu/config/*,
+       ./lobu/manage.py,
+       ./lobu/wsgi.py,
+       *__init__*
